@@ -1,0 +1,17 @@
+G:\nnn\D3_D4\api\src\main\java\com\xxx\model\dto\TransactionInfo.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\model\mapper\TransactionInfoMapper.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\config\JerseyConfig.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\rest\jaxrs\util\Validator.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\rest\jaxrs\TransactionStatisticsEndpoint.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\exception\NApplicationException.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\service\impl\MathServiceImpl.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\service\MathService.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\model\dto\StatisticInfo.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\rest\controller\TransactionStatisticsContoller.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\service\impl\TransactionStatisticServiceImpl.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\util\Constants.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\entity\Transaction.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\repository\TransactionRepository.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\service\TransactionStatisticService.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\statistics\Statistics.java
+G:\nnn\D3_D4\api\src\main\java\com\xxx\MainApplication.java

@@ -1,0 +1,16 @@
+com\xxx\MainApplication.class
+com\xxx\service\MathService.class
+com\xxx\exception\NApplicationException.class
+com\xxx\model\dto\TransactionInfo.class
+com\xxx\statistics\Statistics$StatisticsForOneSecond.class
+com\xxx\entity\Transaction.class
+com\xxx\model\mapper\TransactionInfoMapper.class
+com\xxx\repository\TransactionRepository.class
+com\xxx\service\TransactionStatisticService.class
+com\xxx\rest\controller\TransactionStatisticsContoller.class
+com\xxx\rest\jaxrs\util\Validator.class
+com\xxx\service\impl\TransactionStatisticServiceImpl.class
+com\xxx\service\impl\MathServiceImpl.class
+com\xxx\model\dto\StatisticInfo.class
+com\xxx\statistics\Statistics.class
+com\xxx\util\Constants.class

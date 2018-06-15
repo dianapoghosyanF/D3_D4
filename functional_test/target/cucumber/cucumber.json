@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 212138227,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "baseUri is http://localhost:8087/v2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://localhost:8087/v2",
+                  "offset": 11
+                }
+              ],
+              "location": "TransactionStatisticsSteps.baseUri(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User gets a created TransactionInfo",
+        "description": "",
+        "id": "user-can-successfully-get--create-transactioninfo-and-get-statisticinfo;user-gets-a-created-transactioninfo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1098749578,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user creates an TransactionInfo",
+            "match": {
+              "location": "TransactionStatisticsSteps.theUserCallsGetTransactionInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222783,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the TransactionInfo is successfully created",
+            "match": {
+              "location": "TransactionStatisticsSteps.theTransactionInfoIsSuccessfullyCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47578337,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user gets the current StatisticInfo",
+            "match": {
+              "location": "TransactionStatisticsSteps.theUserRetrievesTheTransactionInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1211722,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user receives status code of 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 33
+                }
+              ],
+              "location": "TransactionStatisticsSteps.theUserReceivesStatusCodeOf(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2565928,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the retrieved StatisticInfo is correct",
+            "match": {
+              "location": "TransactionStatisticsSteps.theRetrievedTransactionInfoIsCorrect()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2916705,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "baseUri is http://localhost:8087/v2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://localhost:8087/v2",
+                  "offset": 11
+                }
+              ],
+              "location": "TransactionStatisticsSteps.baseUri(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User gets a created TransactionInfos",
+        "description": "",
+        "id": "user-can-successfully-get--create-transactioninfo-and-get-statisticinfo;user-gets-a-created-transactioninfos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38308999,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user creates an TransactionInfos",
+            "match": {
+              "location": "TransactionStatisticsSteps.theUserCallsGetTransactionInfos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137655,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "at least one TransactionInfo is successfully created",
+            "match": {
+              "location": "TransactionStatisticsSteps.theTransactionInfosIsSuccessfullyCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7848116,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user gets the current StatisticInfo",
+            "match": {
+              "location": "TransactionStatisticsSteps.theUserRetrievesTheTransactionInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199841,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user receives status code of 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 33
+                }
+              ],
+              "location": "TransactionStatisticsSteps.theUserReceivesStatusCodeOf(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114109,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the retrieved StatisticInfo is correct",
+            "match": {
+              "location": "TransactionStatisticsSteps.theRetrievedTransactionInfoIsCorrect()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1157384,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "baseUri is http://localhost:8087/v2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://localhost:8087/v2",
+                  "offset": 11
+                }
+              ],
+              "location": "TransactionStatisticsSteps.baseUri(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "User gets an existing StatisticInfo",
+        "description": "",
+        "id": "user-can-successfully-get--create-transactioninfo-and-get-statisticinfo;user-gets-an-existing-statisticinfo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19944805,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user gets the current StatisticInfo",
+            "match": {
+              "location": "TransactionStatisticsSteps.theUserRetrievesTheTransactionInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223387,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user receives status code of 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 33
+                }
+              ],
+              "location": "TransactionStatisticsSteps.theUserReceivesStatusCodeOf(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118334,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the retrieved StatisticInfo is correct",
+            "match": {
+              "location": "TransactionStatisticsSteps.theRetrievedTransactionInfoIsCorrect()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User can successfully get, create TransactionInfo and get StatisticInfo",
+    "description": "",
+    "id": "user-can-successfully-get--create-transactioninfo-and-get-statisticinfo",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/TransactionStatistics.feature",
+    "tags": []
+  }
+]
